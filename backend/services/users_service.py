@@ -1,4 +1,4 @@
-from backend.db import get_driver
+from db import get_driver
 
 
 def execute_read(query, params=None):

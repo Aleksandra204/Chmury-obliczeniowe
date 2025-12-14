@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routers import users, products, meta
+from routers import users, products, meta
 
 app = FastAPI(title="Shopping Assistant API")
 

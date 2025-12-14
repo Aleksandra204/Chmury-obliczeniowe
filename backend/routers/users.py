@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from backend.schemas.user import UserCreate, UserUpdate
-from backend.services.users_service import (
+from schemas.user import UserCreate, UserUpdate
+from services.users_service import (
     create_user,
     get_users,
     update_user,

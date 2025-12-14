@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from backend.db import get_driver
+from db import get_driver
 
 router = APIRouter(prefix="/meta", tags=["Meta"])
 

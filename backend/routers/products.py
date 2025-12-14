@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Query
-from backend.services.products_service import (
+from services.products_service import (
     get_products_analysis,
     get_products_overview,
 )
-from backend.schemas.product import ProductAnalysis, ProductOverview
+from schemas.product import ProductAnalysis, ProductOverview
 from typing import List, Optional
 
 router = APIRouter(prefix="/products", tags=["Products"])
