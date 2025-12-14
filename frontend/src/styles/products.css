@@ -1,0 +1,11 @@
+.product-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.product-price {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}

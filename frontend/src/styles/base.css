@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-main: #f6f8ff;
+    --bg-white: #ffffff;
+
+    --primary: #4f46e5;
+    --primary-light: #eef2ff;
+
+    --text-main: #1f2937;
+    --text-muted: #6b7280;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: var(--bg-main);
+    color: var(--text-main);
+    overflow-y: scroll;
+}
+
+.app-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+}
+
+.app-header {
+    width: 100%;
+    background: linear-gradient(90deg, var(--primary), #6366f1);
+    box-shadow: 0 6px 20px rgba(79, 70, 229, 0.25);
+}
+
+.app-header-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.5rem 2.5rem;
+}
+
+.app-title {
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+}

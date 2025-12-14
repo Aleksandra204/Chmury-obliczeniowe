@@ -1,0 +1,140 @@
+.users-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.users-sidebar {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.users-content {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-item {
+    padding: 0.6rem 0.75rem;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-item:hover {
+    background: #f3f4f6;
+}
+
+.user-item.active {
+    background: #eef2ff;
+    font-weight: 600;
+}
+
+.user-actions {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.add-user-btn {
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+
+.sidebar-divider {
+    height: 1px;
+    background: #e5e7eb;
+    margin: 0.75rem 0 0.5rem 0;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-safe {
+    color: #16a34a;
+}
+
+.icon-unsafe {
+    color: #dc2626;
+}
+
+.user-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.user-item .user-avatar {
+    width: 28px;
+    height: 28px;
+    background: #f5f3ff;
+    color: #6d28d9;
+}
+
+.user-item:hover .user-avatar {
+    background: #ede9fe;
+}
+
+.user-item.active .user-avatar {
+    background: var(--primary);
+    color: white;
+}
+
+.user-header .user-avatar {
+    width: 36px;
+    height: 36px;
+    background: var(--primary-light);
+    color: var(--primary);
+}
+
+.icon-btn {
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.icon-edit:hover {
+    background: var(--primary-light);
+    color: var(--primary);
+}
+
+.icon-delete:hover {
+    background: #f5f3ff;
+    color: #6d28d9;
+}
+
+.btn-with-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
